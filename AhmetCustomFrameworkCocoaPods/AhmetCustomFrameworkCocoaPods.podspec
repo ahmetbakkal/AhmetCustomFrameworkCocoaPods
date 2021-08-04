@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "AhmetCustomFrameworkCocoaPods"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Test framework for AhmetCustomFrameworkCocoaPods."
   spec.description  = "Ahmet Custom Framework CocoaPods"
 
@@ -21,10 +21,10 @@ Pod::Spec.new do |spec|
   spec.author             = { "Ahmet BAKKAL" => "ahmet.bakkal38@gmail.com" }
 
   spec.platform     = :ios
-  spec.platform     = :ios, "14.0"
+  spec.platform     = :ios, "14.1"
 
   
-  spec.source       = { :git => "https://github.com/ahmetbakkal/AhmetCustomFrameworkCocoaPods.git", :branch => 'main' }
+  spec.source       = { :git => "https://github.com/ahmetbakkal/AhmetCustomFrameworkCocoaPods.git"}
   spec.source_files  = "AhmetCustomFrameworkCocoaPods/**/*.{h,m,swift}"
 
 end
