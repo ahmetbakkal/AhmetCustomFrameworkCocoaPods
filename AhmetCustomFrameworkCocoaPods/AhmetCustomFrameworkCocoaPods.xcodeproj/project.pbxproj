@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		9774C51C26BA836C001CF076 /* AhmetCustomFrameworkCocoaPods.h in Headers */ = {isa = PBXBuildFile; fileRef = 9774C51A26BA836C001CF076 /* AhmetCustomFrameworkCocoaPods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9774C52326BA83BA001CF076 /* AhmetCustomFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9774C52226BA83BA001CF076 /* AhmetCustomFramework.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9774C51726BA836C001CF076 /* AhmetCustomFrameworkCocoaPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AhmetCustomFrameworkCocoaPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9774C51A26BA836C001CF076 /* AhmetCustomFrameworkCocoaPods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AhmetCustomFrameworkCocoaPods.h; sourceTree = "<group>"; };
 		9774C51B26BA836C001CF076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9774C52226BA83BA001CF076 /* AhmetCustomFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AhmetCustomFramework.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				9774C51A26BA836C001CF076 /* AhmetCustomFrameworkCocoaPods.h */,
 				9774C51B26BA836C001CF076 /* Info.plist */,
+				9774C52226BA83BA001CF076 /* AhmetCustomFramework.swift */,
 			);
 			path = AhmetCustomFrameworkCocoaPods;
 			sourceTree = "<group>";
@@ -94,6 +97,7 @@
 				TargetAttributes = {
 					9774C51626BA836C001CF076 = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9774C52326BA83BA001CF076 /* AhmetCustomFramework.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		9774C52026BA836C001CF076 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Z3KR7RNA78;
@@ -277,6 +283,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.idt.AhmetCustomFrameworkCocoaPods;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +292,7 @@
 		9774C52126BA836C001CF076 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Z3KR7RNA78;
