@@ -16,7 +16,7 @@ open class AhmetCustomFramework: NSObject {
     }
 
     
-    func test() {
+    public func test() {
         print("test executed")
     }
 }
