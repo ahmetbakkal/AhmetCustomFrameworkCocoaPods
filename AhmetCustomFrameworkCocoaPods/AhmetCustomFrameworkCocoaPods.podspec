@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "AhmetCustomFrameworkCocoaPods"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "Test framework for AhmetCustomFrameworkCocoaPods."
   spec.description  = "Ahmet Custom Framework CocoaPods"
   spec.homepage     = "https://github.com/ahmetbakkal/AhmetCustomFrameworkCocoaPods.git"
